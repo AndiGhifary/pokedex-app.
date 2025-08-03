@@ -1,12 +1,36 @@
-# React + Vite
+Pokedex App
+Aplikasi mini Pokedex yang dibuat menggunakan ReactJS dengan Vite. Aplikasi ini menampilkan daftar Pokemon yang diambil dari PokeAPI. Pengguna dapat mencari Pokemon, melihat detailnya, dan menikmati tampilan yang responsif dan modern.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Stack
+ReactJS: Library JavaScript untuk membangun antarmuka pengguna.
 
-Currently, two official plugins are available:
+Vite: Alat build frontend modern yang cepat.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TailwindCSS: Kerangka kerja CSS untuk styling yang cepat dan responsif.
 
-## Expanding the ESLint configuration
+React Router DOM: Untuk mengelola navigasi antar halaman.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Axios: Library untuk mempermudah panggilan ke API.
+
+Cara Menjalankan Proyek
+Clone Repositori:
+Salin proyek ini ke komputer lokal Anda menggunakan Git.
+
+git clone https://github.com/AndiGhifary/pokedex-app..git
+
+Masuk ke Direktori Proyek:
+Buka terminal dan navigasikan ke folder proyek yang baru saja di-clone.
+
+cd pokedex-app
+
+Instal Dependensi:
+Jalankan perintah berikut untuk menginstal semua paket yang dibutuhkan.
+
+npm install
+
+Jalankan Aplikasi:
+Mulai server pengembangan.
+
+npm run dev
+
+Aplikasi akan berjalan di http://localhost:5173 atau port lain yang tersedia.
