@@ -45,8 +45,6 @@ const PokemonDetailsPage = () => {
       <div className={`relative ${mainColorClass} rounded-3xl overflow-hidden shadow-2xl p-6`}>
         {/* Latar belakang dengan pattern dari API */}
         <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.freecodecamp.org/news/content/images/2021/04/pokedex-background.png')] bg-cover bg-center opacity-30"></div>
-
-        {/* Header dengan tombol kembali, nama, dan nomor pokemon */}
         <div className="relative z-30 flex items-center justify-between mb-8">
           <div className="flex items-center">
             <Link to="/" className="text-black text-lg font-semibold flex items-center">
@@ -54,10 +52,8 @@ const PokemonDetailsPage = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
             </Link>
-            {/* Mengubah warna nama Pokemon menjadi hitam */}
             <h1 className="capitalize text-black text-2xl font-bold ml-2">{pokemon.name}</h1>
           </div>
-          {/* Mengubah warna nomor Pokemon menjadi hitam */}
           <span className="text-black text-lg font-bold">#{pokemon.id.toString().padStart(3, '0')}</span>
         </div>
 
